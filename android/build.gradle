@@ -1,0 +1,36 @@
+buildscript {
+    // Menentukan versi Kotlin yang digunakan
+    ext.kotlin_version = '1.8.10'
+
+    repositories {
+        google()
+        mavenCentral()
+    }
+
+    dependencies {
+        // Menggunakan versi terbaru dari Kotlin plugin
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        // Menggunakan versi terbaru dari Android Gradle Plugin
+        classpath 'com.android.tools.build:gradle:8.1.0'  // Pastikan AGP diperbarui ke versi terbaru
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+rootProject.buildDir = '../build'
+
+// Mengonfigurasi subproject dan dependensi mereka
+subprojects {
+    project.buildDir = "${rootProject.buildDir}/${project.name}"
+    project.evaluationDependsOn(':app')
+}
+
+// Menambahkan task untuk membersihkan build
+tasks.register("clean", Delete) {
+    delete rootProject.buildDir
+}

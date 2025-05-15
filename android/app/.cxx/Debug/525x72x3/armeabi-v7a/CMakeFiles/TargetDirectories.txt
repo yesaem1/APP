@@ -1,0 +1,2 @@
+F:/TA/ALAT/Aplikasi/kulkas apps/android/app/.cxx/Debug/525x72x3/armeabi-v7a/CMakeFiles/edit_cache.dir
+F:/TA/ALAT/Aplikasi/kulkas apps/android/app/.cxx/Debug/525x72x3/armeabi-v7a/CMakeFiles/rebuild_cache.dir

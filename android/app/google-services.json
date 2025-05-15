@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "326660680469",
+    "project_id": "kulkas-apps-ce4b3",
+    "storage_bucket": "kulkas-apps-ce4b3.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:326660680469:android:d6a7656963c9845e5f571c",
+        "android_client_info": {
+          "package_name": "com.example.comentor"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAL6Ndl5CKMaLtsbCNWlK7lIsakh-vs4mY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
